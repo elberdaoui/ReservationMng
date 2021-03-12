@@ -10,7 +10,7 @@ namespace ReservationMng.Models
         public int id { get; set; }
         public string name { get; set; }
         public int accessNumber { get; set; }
-        //public virtual Reservation Reservation { get; set; }
+        public virtual Reservation Reservation { get; set; }
 
 
     }
